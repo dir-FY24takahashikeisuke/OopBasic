@@ -23,12 +23,12 @@ public class Employee {
   //報告メソッド　何のため？→（空欄）のときにだけ参照してもらうもの
   //オーバーロード
   public void report() {
-      report(100);
+      report(1);
   }
   
   //会議に参加するメソッド
   public void joinMeeting() {
       department.meeting();
-      System.out.println("→上記の会議に参加します。部長：" + department.getName() + "名前：" + name);
+      System.out.println("→上記の会議に参加します。部署：" + department.getName() + "、名前：" + name);
   }
 }
